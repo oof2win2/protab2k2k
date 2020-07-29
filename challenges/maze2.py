@@ -6,6 +6,8 @@ import time
 import sys
 import random
 
+#CAUTION: DOESNT WORK AS OF NOW
+
 c = maze.Connect("oof2win2", "vylet")
 area = []
 
@@ -14,6 +16,7 @@ area = []
 #blank = 0
 
 height = c.height
+width = c.width
 x = c.x()
 y = c.y()
 print(x, y)
