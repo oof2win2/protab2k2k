@@ -1,11 +1,7 @@
 import maze
-c = maze.Connect("oof2win2", "tojedalka")
-while True:
-    if not c.move('s'):
-        print('error moving, error code', error)
-    if not c.move('d'):
-        print('error moving, error code', error)
-    if not c.move('w'):
-        print('error moving, error code', error)
-    if not c.move('a'):
-        print('error moving, error code', error)
+c = maze.Connect("oof2win2", "vyhlidka")
+
+if not c.move('s'):
+    print('error moving, error code', error)
+width = c.width()
+height = c.height()
